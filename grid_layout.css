@@ -1,0 +1,50 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px 10px;
+    filter: drop-shadow(-10px 10px 10px rgb(38, 59, 175));
+    padding: 20px;
+}
+.grid-container > div{
+    background-color: rgb(38, 229, 229, 0.30);
+    border: 1px solid teal;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+body::after {
+    content: "";
+    background-image: url(cross-sunset.png);
+    background-size: cover;
+    background-position: top;
+    opacity: 50%;
+    position: absolute;
+    z-index: -1;
+    inset: 0;   
+}
+
+/* Grid Columns and Rows */
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: center;
+}
+.item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+}
+.item3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: center;
+}
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
