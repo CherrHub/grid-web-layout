@@ -24,8 +24,6 @@ body::after {
     inset: 0;   
 }
 
-/* filter: drop-shadow(-10px 10px 10px rgb(38, 59, 175));*/
-
 /* Grid Columns and Rows */
 
 .item1 {
