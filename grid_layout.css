@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px 10px;
-    filter: drop-shadow(-10px 10px 10px rgb(38, 59, 175));
     padding: 20px;
 }
 .grid-container > div{
@@ -12,6 +11,7 @@
     padding: 20px;
     font-size: 20px;
     letter-spacing: 1px;
+    box-shadow: rgb(134, 193, 255) -1px 5px 50px;
 }
 body::after {
     content: "";
@@ -23,6 +23,8 @@ body::after {
     z-index: -1;
     inset: 0;   
 }
+
+/* filter: drop-shadow(-10px 10px 10px rgb(38, 59, 175));*/
 
 /* Grid Columns and Rows */
 
